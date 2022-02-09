@@ -1,2 +1,2 @@
 # JsonSchema
-Python script to generate and validatejson schema
+Python script to generate and validate Json schema
