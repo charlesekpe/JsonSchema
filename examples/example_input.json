@@ -1,0 +1,36 @@
+{
+    "attributes": {
+        "app_name": "Niffler",
+        "event_type": "dummy",
+        "sub_event_type": "dummy_profile_creation",
+        "sensitive": true
+    },
+    "message": {
+        "key_one": -100,
+        "key_two": "dummy_text",
+        "key_three": {
+            "key_three_one": "dummy_text",
+            "key_three_two": {
+                "key_three_two_one": [
+                    "dummy_text_one",
+                    "dummy_text_two",
+                    "dummy_text_three"
+                ],
+                "key_three_two_two": 100
+            },
+            "key_three_three": [
+                {
+                    "key_three_three_inner_1": -100.0,
+                    "key_three_three_inner_2": 0,
+                    "personal_data": true
+                },
+                {
+                    "key_three_three_inner_1": 100.0,
+                    "key_three_three_inner_2": -100,
+                    "personal_data": false
+                }
+            ]
+        },
+        "key_four": 100.0
+    }
+}

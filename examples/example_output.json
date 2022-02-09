@@ -1,0 +1,82 @@
+{
+    "key_one": {
+        "type": "INTEGER",
+        "tag": "",
+        "description": ""
+    },
+    "key_two": {
+        "type": "STRING",
+        "tag": "",
+        "description": ""
+    },
+    "key_three": {
+        "type": "OBJECT",
+        "tag": "",
+        "description": "",
+        "properties": {
+            "key_three_one": {
+                "type": "STRING",
+                "tag": "",
+                "description": ""
+            },
+            "key_three_two": {
+                "type": "OBJECT",
+                "tag": "",
+                "description": "",
+                "properties": {
+                    "key_three_two_one": {
+                        "type": "ENUM",
+                        "tag": "",
+                        "description": ""
+                    },
+                    "key_three_two_two": {
+                        "type": "INTEGER",
+                        "tag": "",
+                        "description": ""
+                    }
+                },
+                "required": [
+                    "key_three_two_one",
+                    "key_three_two_two"
+                ]
+            },
+            "key_three_three": {
+                "type": "ARRAY",
+                "tag": "",
+                "description": "",
+                "items": {
+                    "key_three_three_inner_1": {
+                        "type": "NUMBER",
+                        "tag": "",
+                        "description": ""
+                    },
+                    "key_three_three_inner_2": {
+                        "type": "INTEGER",
+                        "tag": "",
+                        "description": ""
+                    },
+                    "personal_data": {
+                        "type": "BOOLEAN",
+                        "tag": "",
+                        "description": ""
+                    }
+                },
+                "required": [
+                    "key_three_three_inner_1",
+                    "key_three_three_inner_2",
+                    "personal_data"
+                ]
+            }
+        },
+        "required": [
+            "key_three_one",
+            "key_three_two",
+            "key_three_three"
+        ]
+    },
+    "key_four": {
+        "type": "NUMBER",
+        "tag": "",
+        "description": ""
+    }
+}
