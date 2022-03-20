@@ -1,16 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[86]:
-
-
 import pytest
 import json
 from main import SchemaGenerator
-
-
-# In[ ]:
-
 
 @pytest.fixture
 def example_schema():
